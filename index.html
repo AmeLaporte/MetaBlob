@@ -185,11 +185,15 @@
     <div id="config" class="config">
       <!-- File manager -->
       <div class="param">
+        <h1>MetaBLOB</h1>
         <btn class="btn btn-default" onclick="optionsModal();"></span>Layout options<i class="fab fa-whmcs"></i></btn>     
         <btn class="btn btn-default" onclick="algoModal();"></span>Change algorithm<i class="fab fa-whmcs"></i></btn>           
         <btn class="btn btn-default" onclick="exportPng();"></span>Export png<i class="far fa-save"></i></btn>
         <a href="model.json" download>
         	<btn class="btn">Export Physarum as JSON<i class="far fa-save"></i></btn>
+        </a>
+        <a href="blob.xml" download>
+        	<btn class="btn">Export Physarum as SBML<i class="far fa-save"></i></btn>
         </a>
         <btn class="btn btn-default" onclick="reloadCanvas();">Refresh page<i class="fas fa-sync-alt"></i></btn>
         <div class="btn checkbtn" id="ck-button">

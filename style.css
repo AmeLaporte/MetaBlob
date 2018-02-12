@@ -1,19 +1,19 @@
 
 #cy {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
-  right: 17em;
+  left: 17em;
 }
 
 .config {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   bottom: 0;
   width: 17em;
-  background: rgba(0, 0, 0, 0.75);
+  background: #2d3436;
   box-sizing: border-box;
   padding: 1em;
   color: #fff;
@@ -25,7 +25,7 @@
 }
 
 .preamble{
-  margin-top: 8em;
+  margin-top: 7em;
 }
 
 p {
@@ -65,9 +65,11 @@ body {
 }
 
 .param .btn {
-  margin-left:40px;
-  margin-top:10px;
-  font-size: 12px;
+  text-align: center;
+  width:100%;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 10px;
   padding: 5px 5px 5px 5px;
   font-weight: 500;
   color: #000000; 
@@ -324,20 +326,9 @@ a:hover {
 .control-checkbox input:disabled ~ .control_indicator:after {
   border-color: hsl(0, 0%, 48%);
 }
-
-#maDivDroite {
-  float: inherit;
-	margin-left: 80px;
-	padding: 55px;
-}
-
-#maDivGauche {
-	float: left;
-	margin: 5px;
-	padding: 55px;
-}
-
-.image1 {
-  height:auto;
-	width: auto;
+#hideshow{
+  margin: auto;
+  margin-left: 37%;
+  text-align: center;
+  font-size: 10px;
 }
